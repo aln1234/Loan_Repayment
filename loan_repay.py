@@ -25,9 +25,10 @@ results = [initial_payment, last_payment, credit_score,
 
 if st.button("Calculate Result"):
     new_prediction = rfc.predict([results])
+
     if new_prediction[0] == 'yes':
-        st.success('The client will not repay the loan')
-    elif new_prediction[0] == 'no':
-        st.error('The client will repay the loan')
+        st.error('The client will not repay the loan')
+    elif new_prediction[0] == 'No':
+        st.success('The client will repay the loan')
     else:
         st.text('The result is indecisive. Check other parameters')
