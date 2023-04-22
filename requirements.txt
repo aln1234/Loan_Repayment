@@ -20,7 +20,6 @@ blinker==1.4
 bokeh==2.4.3
 brotlipy==0.7.0
 cachetools @ file:///tmp/build/80754af9/cachetools_1619597386817/work
-certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
 cffi @ file:///C:/Windows/Temp/abs_6808y9x40v/croots/recipe/cffi_1659598653989/work
 charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
 click @ file:///C:/ci/click_1646038595831/work
